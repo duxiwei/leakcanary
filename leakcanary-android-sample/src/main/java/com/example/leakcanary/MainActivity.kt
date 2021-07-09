@@ -60,7 +60,7 @@ class MainActivity : Activity() {
               SystemClock.sleep(1000)
             }
           }
-          thread.name = "Leaking local variables"
+          thread.name = "Leaking local variables app"
           thread.start()
         }
         // Leak from thread fields
